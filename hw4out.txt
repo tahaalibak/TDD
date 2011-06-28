@@ -1,0 +1,137 @@
+octave-3.2.4.exe:8> test_makeChocolate
+makeChocolate(0,0,0) reported correct solution.
+Error: makeChocolate(1,1,1) reported incorrect solution.
+makeChocolate(1,5,6) reported correct solution.
+makeChocolate(1,5,5) reported correct solution.
+Error: makeChocolate(1,2,3) reported incorrect solution.
+Error: makeChocolate(2,3,1) reported incorrect solution.
+Error: makeChocolate(3,2,1) reported incorrect solution.
+warning: makeChocolate: some elements in list of return values are undefined
+Error: makeChocolate(-2,0,0) reported incorrect solution.
+Error: makeChocolate(1,1,2) reported incorrect solution.
+Error: makeChocolate(7,13,21) reported incorrect solution.
+makeChocolate(7,3,21) reported correct solution.
+makeChocolate(7,2,21) reported correct solution.
+Failures: 7
+octave-3.2.4.exe:9> test_makeChocolate
+makeChocolate(0,0,0) reported correct solution.
+makeChocolate(1,1,1) reported correct solution.
+Error: makeChocolate(1,5,6) reported incorrect solution.
+Error: makeChocolate(1,5,5) reported incorrect solution.
+makeChocolate(1,2,3) reported correct solution.
+makeChocolate(2,3,1) reported correct solution.
+makeChocolate(3,2,1) reported correct solution.
+warning: makeChocolate: some elements in list of return values are undefined
+Error: makeChocolate(-2,0,0) reported incorrect solution.
+makeChocolate(1,1,2) reported correct solution.
+Error: makeChocolate(7,13,21) reported incorrect solution.
+makeChocolate(7,3,21) reported correct solution.
+makeChocolate(7,2,21) reported correct solution.
+Failures: 4
+octave-3.2.4.exe:10> test_makeChocolate
+makeChocolate(0,0,0) reported correct solution.
+error: `r' undefined near line 15 column 15
+error: called from:
+error:   C:\Users\tahaalibak\Desktop\Educational\Junior\COSI177 - Scientific Computation\makeChocolate.m at line 15, column 13
+error:   C:\Users\tahaalibak\Desktop\Educational\Junior\COSI177 - Scientific Computation\test_makeChocolate.m at line 25, column 1
+error:   C:\Users\tahaalibak\Desktop\Educational\Junior\COSI177 - Scientific Computation\test_makeChocolate.m at line 7, column 5
+octave-3.2.4.exe:10> test_makeChocolate
+makeChocolate(0,0,0) reported correct solution.
+makeChocolate(1,1,1) reported correct solution.
+makeChocolate(1,5,6) reported correct solution.
+makeChocolate(1,5,5) reported correct solution.
+makeChocolate(1,2,3) reported correct solution.
+makeChocolate(2,3,1) reported correct solution.
+makeChocolate(3,2,1) reported correct solution.
+warning: makeChocolate: some elements in list of return values are undefined
+Error: makeChocolate(-2,0,0) reported incorrect solution.
+makeChocolate(1,1,2) reported correct solution.
+makeChocolate(7,13,21) reported correct solution.
+makeChocolate(7,3,21) reported correct solution.
+makeChocolate(7,2,21) reported correct solution.
+Failures: 1
+octave-3.2.4.exe:11> test_makeChocolate
+makeChocolate(0,0,0) reported correct solution.
+makeChocolate(1,1,1) reported correct solution.
+makeChocolate(1,5,6) reported correct solution.
+makeChocolate(1,5,5) reported correct solution.
+makeChocolate(1,2,3) reported correct solution.
+makeChocolate(2,3,1) reported correct solution.
+makeChocolate(3,2,1) reported correct solution.
+makeChocolate(-2,0,0) reported correct solution.
+makeChocolate(1,1,2) reported correct solution.
+makeChocolate(7,13,21) reported correct solution.
+makeChocolate(7,3,21) reported correct solution.
+makeChocolate(7,2,21) reported correct solution.
+Failures: 0
+octave-3.2.4.exe:12> test_blackjack
+One (or both) of the values is (or are) not a positive integer:
+blackjack(0,-1) = 111.
+blackjack(1,1) = 1.
+blackjack(2,1) = 2.
+blackjack(1,2) = 2.
+blackjack(21,21) = 21.
+blackjack(20,21) = 21.
+blackjack(21,20) = 21.
+One (or both) of the values is (or are) not a positive integer:
+blackjack(0,0) = 111.
+blackjack(19,21) = 21.
+blackjack(22,21) = 21.
+blackjack(21,22) = 21.
+blackjack(22,22) = 0.
+Failures: 0
+octave-3.2.4.exe:13> test_evenlySpaced
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(0,0,0) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(-1,-1,-1) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(1,1,1) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(-1,0,1) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(1,2,3) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(2,3,1) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(3,2,1) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(0,0,1) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(1,1,2) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(-1,1,-1) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(1,0,1) reported incorrect solution.
+warning: evenlySpaced: some elements in list of return values are undefined
+Error: evenlySpaced(-1,-2,-3) reported incorrect solution.
+Failures: 12
+octave-3.2.4.exe:14> test_evenlySpaced
+evenlySpaced(0,0,0) reported correct solution.
+evenlySpaced(-1,-1,-1) reported correct solution.
+evenlySpaced(1,1,1) reported correct solution.
+evenlySpaced(-1,0,1) reported correct solution.
+evenlySpaced(1,2,3) reported correct solution.
+evenlySpaced(2,3,1) reported correct solution.
+evenlySpaced(3,2,1) reported correct solution.
+evenlySpaced(0,0,1) reported correct solution.
+evenlySpaced(1,1,2) reported correct solution.
+evenlySpaced(-1,1,-1) reported correct solution.
+evenlySpaced(1,0,1) reported correct solution.
+Error: evenlySpaced(-1,-2,-3) reported incorrect solution.
+Failures: 1
+octave-3.2.4.exe:15> test_evenlySpaced
+evenlySpaced(0,0,0) reported correct solution.
+evenlySpaced(-1,-1,-1) reported correct solution.
+evenlySpaced(1,1,1) reported correct solution.
+evenlySpaced(-1,0,1) reported correct solution.
+evenlySpaced(1,2,3) reported correct solution.
+evenlySpaced(2,3,1) reported correct solution.
+evenlySpaced(3,2,1) reported correct solution.
+evenlySpaced(0,0,1) reported correct solution.
+evenlySpaced(1,1,2) reported correct solution.
+evenlySpaced(-1,1,-1) reported correct solution.
+evenlySpaced(1,0,1) reported correct solution.
+evenlySpaced(-1,-2,-3) reported correct solution.
+Failures: 0
+octave-3.2.4.exe:16> diary off
